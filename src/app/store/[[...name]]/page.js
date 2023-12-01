@@ -1,9 +1,10 @@
 const StorePage = ({params: {name}}) => {
   console.log(name);
+  const displayParams = name.join('/');
   return(
     <p className="text-2xl">
       Showing the store page for the 
-      name <strong>{name}</strong>
+      store param path: <strong>{displayParams}</strong>
     </p>
   )
 }

@@ -1,28 +1,28 @@
 import Link from "next/link";
 
-const BlogPage = () => {
-  return (
+const StorePage = () => {
+  return(
     <>
-      <h2 className="text-3xl p-4">Blog Page</h2>
+      <h2 className="text-3xl p-4">Store Page</h2>
       <ul>
         <li className="pb-1">
           <Link
             className="text-xl underline"
-            href="/blog/how-to-eat">How to Eat?</Link>
+            href="/store/cloths">Get Cloths</Link>
         </li>
         <li className="pb-1">
           <Link 
             className="text-xl underline"
-            href="/blog/how-to-sleep">How to Sleep?</Link>
+            href="/store/cloths/shirts">Get Shirts</Link>
         </li>
         <li className="pb-1">
           <Link
             className="text-xl underline" 
-            href="/blog/how-to-learn">How to Learn?</Link>
+            href="/store/car/toyota/innova">Get Innova Car</Link>
         </li>
       </ul>
     </>
   )
 }
 
-export default BlogPage;
+export default StorePage;
