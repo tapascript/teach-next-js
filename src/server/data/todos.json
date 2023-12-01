@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": "84f9502c-17ac-4601-a7e8-250378da2381",
+      "text": "Go to market"
+    },
+    {
+      "id": "84f9502c-17ac-4601-a7e8-250378da2382",
+      "text": "Give Computer for repair"
+    },
+    {
+      "id": "84f9502c-17ac-4601-a7e8-250378da2383",
+      "text": "Buy a Camera"
+    },
+    {
+      "id": "8fbbcd62-8133-49d4-8730-356570f13770",
+      "text": "Eat"
+    },
+    {
+      "id": "b7b0bd3d-46f9-4cad-9fc3-97f77f7fb2f9",
+      "text": "sleep"
+    }
+  ]
+}

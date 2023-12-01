@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="flex space-x-6">
         <a href="/">Home</a>
         <a href="/blog">Blog</a>
-        <a href="/todo">Play</a>
+        <a href="/play">Play</a>
         <a href="/store">Store</a>
         <a href="/about">About</a>
       </nav>

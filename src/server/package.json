@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A simple JSON Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapascript/teach-next-js.git"
+  },
+  "keywords": [
+    "json",
+    "server",
+    "api"
+  ],
+  "author": "Tapas Adhikary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tapascript/teach-next-js/issues"
+  },
+  "homepage": "https://github.com/tapascript/teach-next-js#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
