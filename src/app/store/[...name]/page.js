@@ -1,4 +1,4 @@
-const StorePage = ({params: {name}}) => {
+const StoreLocator = ({params: {name}}) => {
   console.log(name);
   const displayParams = name.join('/');
   return(
@@ -9,4 +9,4 @@ const StorePage = ({params: {name}}) => {
   )
 }
 
-export default StorePage;
+export default StoreLocator;
