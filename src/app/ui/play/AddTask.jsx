@@ -1,6 +1,6 @@
 'use client'
 
-import { addTodo } from "@/app/actions/todo-actions";
+import {addTodo} from '../../actions/todo-actions';
 import { useRouter } from "next/navigation";
 const AddTask = () => {
   const router = useRouter();
