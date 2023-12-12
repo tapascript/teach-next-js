@@ -1,5 +1,5 @@
-import TodoList from '../ui/play/TodoList';
-import AddTask from '../ui/play/AddTask';
+import TodoList from '../../ui/play/TodoList';
+import AddTask from '../../ui/play/AddTask';
 
 export const getAllTodos = async () => {
   const res = await fetch(`http://localhost:3001/tasks`, { cache: "no-store" });
