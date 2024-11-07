@@ -3,13 +3,19 @@ import AddTask from '../../ui/play/AddTask';
 import Search from '../../ui/play/Search';
 
 export const getAllTodos = async (query) => {
-  const res = await fetch(`http://localhost:3001/tasks`, { cache: "no-store" });
+  const res = await fetch(`http://localhost:3001/tasks`);
   const todos = await res.json();
   const finalTODOs = query ? todos.filter(todo => todo?.text?.includes(query)): todos;
   return finalTODOs;
 };
 
-export default async function Play({searchParams: {query}}) {
+export default async function Play(props) {
+  const searchParams = await props.searchParams;
+
+  const {
+    query
+  } = searchParams;
+
   console.log(query);
   const tasks = await getAllTodos(query);
   return (
