@@ -1,4 +1,10 @@
-const StoreLocator = ({params: {name}}) => {
+const StoreLocator = async props => {
+  const params = await props.params;
+
+  const {
+    name
+  } = params;
+
   console.log(name);
   const displayParams = name.join('/');
   return(
