@@ -1,6 +1,6 @@
 const TodoList = ({ tasks }) => {
   return (
-    <ul className="text-2xl">
+    <ul className="text-2xl m-2">
       {tasks.map((task) => (
         <li 
           className="pb-1.5 text-left"
