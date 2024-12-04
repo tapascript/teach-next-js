@@ -7,7 +7,13 @@ const getContent = async (slug) => {
 
   return data;
 }
-const BlogPost = async ({params: {slug}}) => {
+const BlogPost = async props => {
+  const params = await props.params;
+
+  const {
+    slug
+  } = params;
+
   const data = await getContent();
 
   return(
